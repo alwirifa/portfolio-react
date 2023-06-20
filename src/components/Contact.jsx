@@ -1,7 +1,6 @@
 import React from "react";
 import { useForm } from "react-hook-form";
-import { motion } from "framer-motion";
-import contactDark from "../assets/contactdark.png";
+import contactDark from "../assets/contactDark.png";
 import aboutbg2 from '../assets/aboutbg2.png';
 import {
   AiOutlineGithub,
