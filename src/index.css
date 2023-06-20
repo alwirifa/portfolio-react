@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Playfair+Display:wght@400;600&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  scroll-behavior: smooth;
+}
+
+.theme-switch {
+  /* other styles */
+  transition: background-color 0.3s ease;
+}
+
+.hamburger:hover .burger {
+  width: 100%;
+}
+
+
+.navigasi:hover span {
+  width: 100%;
+}
+
+.scroll {
+    animation: scroll 2s linear infinite;
+}
+
+@keyframes scroll {
+  0% {
+      opacity: 1;
+      transform: translate(0)
+  }
+  100% {
+      opacity: 0;
+      transform: translateY(20px)
+  }
+}
