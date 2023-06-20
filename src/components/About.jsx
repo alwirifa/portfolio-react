@@ -22,9 +22,9 @@ function About({ theme }) {
             alt="alwi"
             className="rounded-xl xl:w-[600px] w-[500px] shadow-xl"
           />
-          <div className="flex flex-col sm:gap-4 gap-1 w-full">
-            <h2 className="sm:text-2xl text-lg font-semibold">Hi there 👋, my name is Alwi</h2>
-            <p className="sm:text-lg text-sm text-black dark:text-white text-justify sm:leading-normal leading-loose mt-4">
+          <div className="flex flex-col sm:gap-2 gap-1 w-full">
+            <h2 className="sm:text-2xl text-base font-semibold">Hi there 👋, my name is Alwi</h2>
+            <p className="sm:text-lg text-xs text-black dark:text-white text-justify sm:leading-normal leading-loose mt-4">
               I am a Full-Stack developer based in Bandung, Indonesia. I am an
               undergraduate student of Electrical Engineering at Indonesia
               University of Education, and my journey in web development began
