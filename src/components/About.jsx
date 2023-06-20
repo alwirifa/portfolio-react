@@ -12,7 +12,7 @@ function About({ theme }) {
      
       id="about"
     >
-      <div className="w-5/6 mx-auto h-full  flex items-end pb-12 sm:pb-36 xl:items-center justify-center ">
+      <div className="w-5/6 mx-auto h-full  flex items-end pb-6 sm:pb-24 xl:items-center justify-center ">
         <h1 className="absolute top-32 font-semibold tracking-[5px] text-2xl text-black dark:text-white">
           ABOUT ME
         </h1>
